@@ -39,6 +39,14 @@
 
     width: 150px;
     background-color: rgb(175, 248, 107);
+
+    box-shadow: 2px 2px  rgb(102, 143, 64);
+
+    transition: 200ms;
+}
+#table button:hover{
+    background-color: rgb(157, 221, 97);
+    border-radius: 30px;
 }
 #infoDiv{
     display: flex;
@@ -48,4 +56,19 @@
 }
 #infoDiv p {
     margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    #player-1D, #player-2D ,#player-3D {
+        flex-direction: column;
+    }
+
+    .cardElement{
+        height: 350px;
+        width: 300px;
+        justify-content: center;
+    }
+    #infoDiv{
+        flex-direction: column;
+    }
 }
