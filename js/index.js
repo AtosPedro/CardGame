@@ -106,19 +106,19 @@ function startMatch() {
     case 0:
       setTimeout(() => {
         alert("the winner of this round is " + player1Obj.name);
-      }, 1000);
+      }, 2000);
       player1Obj.pontuation++;
       return player1Obj;
     case 1:
       setTimeout(() => {
         alert("the winner of this round is " + player2Obj.name);
-      }, 1000);
+      }, 2000);
       player2Obj.pontuation++;
       return player2Obj;
     case 2:
       setTimeout(() => {
         alert("the winner of this round is " + player3Obj.name);
-      }, 1000);
+      }, 2000);
       player3Obj.pontuation++;
       return player3Obj;
   }
