@@ -77,7 +77,7 @@ button.onclick = function matchManager() {
       location.reload();
     }, 5000);
   }
-  infoDiv.innerHTML = `<p><strong>${player1Obj.name}</strong>Vanquished Rounds: ${player1Obj.pontuation}</p> <p><strong>${player2Obj.name}</strong> Vanquished Rounds: ${player2Obj.pontuation}</p> <p><strong>${player3Obj.name}</strong> Vanquished Rounds: ${player3Obj.pontuation}</p>`;
+  infoDiv.innerHTML = `<p><strong>${player1Obj.name}</strong> Vanquished Rounds: ${player1Obj.pontuation}</p> <p><strong>${player2Obj.name}</strong> Vanquished Rounds: ${player2Obj.pontuation}</p> <p><strong>${player3Obj.name}</strong> Vanquished Rounds: ${player3Obj.pontuation}</p>`;
 };
 
 function startMatch() {
@@ -135,8 +135,6 @@ function countPoints(p1, p2, p3) {
 }
 function drawCards(playerDiv, playerObj) {
   playerObj.cards.forEach(function (card) {
-
     playerDiv.innerHTML += `<div class="cardElement"><p>${card.name} ${card.suits}</p> <span>${card.suits}</span><p>Points: ${card.points}</p></div>`;
-    
   });
 }

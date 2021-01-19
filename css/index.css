@@ -17,19 +17,25 @@
 
     border: none;
     border-radius: 10px;
+    font-size: 20px;
 
     box-shadow: 2px 2px rgb(0, 0, 0, 0.4) ;
     background-color: rgb(224, 224, 224);
     margin: 1rem;
     height: 250px;
     width: 200px;
+
+    transition: 300ms;
+}
+.cardElement:hover{
+    height: 300px;
+    width: 250px;
+    font-size: 30px;
 }
 .cardElement span{
     font-size: 90px
 }
-.cardElement p{
-    font-size: 20px;
-}
+
 #table button{
     margin: 10px;
     padding: 20px;
@@ -42,7 +48,8 @@
 
     box-shadow: 2px 2px  rgb(102, 143, 64);
 
-    transition: 200ms;
+    transition: 300ms;
+    outline: none;
 }
 #table button:hover{
     background-color: rgb(157, 221, 97);
@@ -66,7 +73,14 @@
     .cardElement{
         height: 350px;
         width: 300px;
+        font-size: 30px;
         justify-content: center;
+    }
+    .cardElement:hover{
+        height: 350px;
+        width: 300px;
+        justify-content: center;
+        box-shadow: 4px 4px rgb(0, 0, 0, 0.4) ;
     }
     #infoDiv{
         flex-direction: column;
