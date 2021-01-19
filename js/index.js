@@ -1,15 +1,14 @@
 // Imports
 
-import Deck from "../models/Deck.js";
-import { giveCards } from "../models/Deck.js";
-import { remadeDeck } from "../models/Deck.js";
-import { createDeck } from "../models/Deck.js";
-import Player from "../models/Player.js";
-import { tryLie } from "../models/Player.js";
-import { lieResult } from "../models/Player.js";
-
-import Match from "../models/Match.js";
-import { Round } from "../models/Match.js";
+import Deck from "/js/Deck.js";
+import { giveCards } from "/js/Deck.js";
+import { remadeDeck } from "/js/Deck.js";
+import { createDeck } from "/js/Deck.js";
+import Player from "/js/Player.js";
+import { tryLie } from "/js/Player.js";
+import { lieResult } from "/js/Player.js";
+import Match from "/js/Match.js";
+import { Round } from "/js/Match.js";
 
 // ob variables
 
