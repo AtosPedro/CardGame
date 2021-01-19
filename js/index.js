@@ -5,8 +5,6 @@ import { giveCards } from "/js/Deck.js";
 import { remadeDeck } from "/js/Deck.js";
 import { createDeck } from "/js/Deck.js";
 import Player from "/js/Player.js";
-import { tryLie } from "/js/Player.js";
-import { lieResult } from "/js/Player.js";
 import Match from "/js/Match.js";
 import { Round } from "/js/Match.js";
 
